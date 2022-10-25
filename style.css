@@ -1,0 +1,110 @@
+/* DEFAULT SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%
+}
+
+
+body {
+  /* background-image: url(main-bg.png);
+  background-repeat: no-repeat;
+  background-position: center; */
+  background-image: url("images/bg.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #404040;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+.hero-div{
+  height:49rem;
+  width:35rem;
+  /* background:linear-gradient(to top left, #0d235f,#7dd56f); */
+  background: linear-gradient(to right, #2c3e50, #4ca1af);;
+  /* background:linear-gradient(to right, #b6fbff, #83a4d4)  ; */
+  border-radius: 5px;
+  margin-top:3rem ;
+  /* border: #9dcde0 solid 3px; */
+  border: #43b2e6 solid 3px;
+
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  margin: 4rem 4rem;
+
+}
+.profile-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.profile-icon{
+ /* margin-left:13rem; */
+ width: 10rem; 
+ opacity: 1;
+
+}
+.login{
+  margin-top:4rem ;
+}
+.form-tags{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  
+}
+.tags{
+  border: none; 
+  width:85% ;
+  border-radius: 2px;
+  padding: 1rem;
+  margin-left: 2.5rem;
+  /* border-bottom:2px solid black; */
+  box-shadow: 2px 3px 7px grey;
+
+
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.login-button{
+  color:white;
+  padding: 1rem 5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color:#ff0081;
+  box-shadow: 0 2px 25px rgba(0, 47, 255, 0.5);
+  box-sizing: border-box; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  border: 2px solid grey;
+
+
+}
+.login-button:hover{
+  color: lightgreen;
+  transform: scale(1.01);
+  background-color: #4ca1af;
+}
+
+
